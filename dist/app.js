@@ -252,6 +252,9 @@ $scope.callbacks = {
   edgeDoubleClick: function () {
     console.log('Edge double clicked.');
   },
+  edgeClick: function(event, edge) {
+    console.log('Edge single clicked.');
+  },
   edgeEdit: function(event, edge) {
     var label = prompt("Enter a link label:", edge.label);
     if (label) {
