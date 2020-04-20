@@ -1853,6 +1853,7 @@ if (!Function.prototype.bind) {
     };
 
     $scope.edgeDoubleClick = $scope.userCallbacks.edgeDoubleClick || angular.noop;
+    $scope.edgeClick = $scope.userCallbacks.edgeClick || angular.noop;
     $scope.edgeMouseOver = $scope.userCallbacks.edgeMouseOver || angular.noop;
     $scope.edgeEdit = $scope.userCallbacks.edgeEdit || angular.noop;
 
